@@ -1,0 +1,14 @@
+ /* Custom styles for the tooltip content */
+ .tooltip-content {
+    max-width: 300px;
+}
+
+/* Customize Tippy.js tooltips */
+.tippy-box[data-theme~='light-border'] {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
